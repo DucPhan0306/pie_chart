@@ -207,7 +207,7 @@ class _PieChartState extends State<PieChart>
               ? Axis.horizontal
               : Axis.vertical,
           runSpacing: 8,
-          crossAxisAlignment: WrapCrossAlignment.start,
+          crossAxisAlignment: WrapCrossAlignment.center,
           children: legendTitles
               .map(
                 (item) => Legend(
