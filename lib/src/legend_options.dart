@@ -11,7 +11,7 @@ class LegendOptions {
 
   const LegendOptions({
     this.showLegends = true,
-    this.showLegendsInRow = false,
+    this.showLegendsInRow = true,
     this.legendTextStyle = defaultLegendStyle,
     this.legendShape = BoxShape.circle,
     this.legendPosition = LegendPosition.right,
