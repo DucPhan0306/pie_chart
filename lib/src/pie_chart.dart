@@ -206,7 +206,7 @@ class _PieChartState extends State<PieChart>
           direction: widget.legendOptions.showLegendsInRow
               ? Axis.horizontal
               : Axis.vertical,
-          runSpacing: 8,
+          runSpacing: 15,
           crossAxisAlignment: WrapCrossAlignment.center,
           children: legendTitles
               .map(
